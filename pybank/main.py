@@ -2,9 +2,7 @@ import csv
 
 # Specify the path to your CSV file
 csv_file_path = '\budget_data.csv'
-def hello():
-    print("Hello")
-hello()
+
 # Open the CSV file and read its content
 with open(csv_file_path, 'r') as file:
     csv_reader = csv.reader(file)
